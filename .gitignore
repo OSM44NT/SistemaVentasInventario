@@ -1,0 +1,96 @@
+# ==============================================================================
+# .gitignore para Proyecto Java - Sistema de Ventas e Inventario
+# Compatible con Windows, macOS, Linux y entornos de desarrollo estándar
+# ==============================================================================
+
+# Directorios de compilación y salida de binarios
+bin/
+out/
+build/
+target/
+dist/
+nbbuild/
+nbdist/
+
+# Archivos binarios compilados de Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Carpeta de persistencia en tiempo de ejecución del sistema
+datos/
+*.dat
+*.tmp
+*.bak
+sistema.dat
+sistema.tmp
+sistema.bak
+
+# Archivos de configuración de IDEs y Editores
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# NetBeans
+nbproject/private/
+nbproject/Makefile-*.mk
+nbproject/Package-*.bash
+build/
+nbproject/genfiles.properties
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+
+# Archivos específicos de sistemas operativos
+
+# Microsoft Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon\r\r
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux / Unix
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Archivos de depuración, logs y volcado de memoria de Java Virtual Machine (JVM)
+*.log
+hs_err_pid*
+replay_pid*
